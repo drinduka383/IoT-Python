@@ -44,11 +44,11 @@ while i > 0:
     if i == 0:
         secondsLeft = 10
         while secondsLeft > 0:
-            print(f"You have to wait {secondsLeft} more second(s) to try again.")
+            print(f"\rYou have to wait {secondsLeft} more second(s) to try again.", end="")
             secondsLeft -= 1
             time.sleep(1)
         i = 3
-
+        print("\n")
 """
 
 Taken from notepad.pw:
