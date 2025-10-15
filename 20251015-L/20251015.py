@@ -1,5 +1,5 @@
-# import sys
-# import time
+import sys
+import time
 
 # while True:
 #     username = str(input("Sheno username: "))
